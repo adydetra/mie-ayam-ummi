@@ -1,0 +1,35 @@
+{
+  "name": "mie-ayam-ummi",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.3.0",
+    "vue3-marquee": "4.2.0-beta.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "@iconify-json/fxemoji": "^1.1.8",
+    "@iconify-json/mingcute": "^1.1.15",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/fontaine": "^0.4.1",
+    "@unocss/eslint-plugin": "^0.58.4",
+    "@unocss/nuxt": "^0.58.4",
+    "@vueuse/core": "^10.7.2",
+    "@vueuse/nuxt": "^10.7.2",
+    "eslint": "^8.56.0",
+    "nuxt": "^3.10.0",
+    "nuxt-og-image": "3.0.0-rc.30",
+    "nuxt-simple-sitemap": "^4.4.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  }
+}
