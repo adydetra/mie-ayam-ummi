@@ -12,6 +12,7 @@ const product = [
   <section grid justify-center gap-8 py-12 md:grid-cols-2>
     <div
       v-for="(products, index) in product" :key="index" :aria-label="products.title" :class="products.grid"
+      data-aos="flip-up"
       col-span-2 flex items-center border border-gray-100 rounded-xl border-solid px-2 py-4 transition-colors duration-300 ease-in-out md:col-span-1 space-x-4 dark:border-gray-900
     >
       <NuxtImg src="/photo.png" alt="" :class="products.imgSize" size-20 />

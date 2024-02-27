@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 
   srcDir: 'src/',
 
-  modules: ['@unocss/nuxt', '@nuxt/image', '@nuxtjs/color-mode', '@nuxtjs/fontaine', '@nuxtjs/sitemap', '@vueuse/nuxt', 'nuxt-og-image'],
+  modules: ['@unocss/nuxt', '@nuxt/image', '@nuxtjs/color-mode', '@nuxtjs/fontaine', '@nuxtjs/sitemap', '@vueuse/nuxt', 'nuxt-aos', 'nuxt-og-image'],
 
   site: {
     url: 'https://mie-ayam-ummi.vercel.app',
