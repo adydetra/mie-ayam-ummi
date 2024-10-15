@@ -18,7 +18,6 @@ export default defineNuxtConfig({
   },
 
   srcDir: 'src/',
-
   modules: ['@unocss/nuxt', '@nuxt/image', '@nuxtjs/color-mode', '@nuxtjs/fontaine', '@nuxtjs/sitemap', '@vueuse/nuxt', 'nuxt-aos', 'nuxt-og-image'],
 
   site: {
@@ -47,4 +46,6 @@ export default defineNuxtConfig({
   sitemap: {
     xsl: false,
   },
+
+  compatibilityDate: '2024-10-15',
 });
