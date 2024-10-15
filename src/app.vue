@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: (titleChunk) => {
+  titleTemplate: (titleChunk: any) => {
     return titleChunk ? `${titleChunk} · Mie Ayam Ummi` : 'Mie Ayam Ummi';
   },
   meta: [
@@ -20,9 +20,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 });
 
-const ogImageOptions = {
-  component: 'OpenGraph',
-};
+defineOgImageComponent('OpenGraph');
 </script>
 
 <template>
@@ -31,7 +29,6 @@ const ogImageOptions = {
     <NuxtPage />
     <AppNav />
   </main>
-  <OgImage v-bind="ogImageOptions" />
 </template>
 
 <style lang="postcss">
