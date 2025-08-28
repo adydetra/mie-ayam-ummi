@@ -12,24 +12,24 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@nuxt/image": "^1.10.0"
+    "@nuxt/image": "^1.11.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.17.0",
-    "@iconify-json/fxemoji": "^1.2.1",
-    "@iconify-json/mingcute": "^1.2.3",
+    "@antfu/eslint-config": "^5.2.1",
+    "@iconify-json/fxemoji": "^1.2.2",
+    "@iconify-json/mingcute": "^1.2.5",
     "@nuxtjs/color-mode": "^3.5.2",
     "@nuxtjs/fontaine": "^0.5.0",
     "@nuxtjs/sitemap": "^7.4.3",
-    "@unocss/eslint-plugin": "^66.3.3",
-    "@unocss/nuxt": "^66.3.3",
-    "@vueuse/core": "^13.5.0",
-    "@vueuse/nuxt": "^13.5.0",
-    "eslint": "^9.31.0",
-    "nuxt": "^4.0.1",
+    "@unocss/eslint-plugin": "^66.4.2",
+    "@unocss/nuxt": "^66.4.2",
+    "@vueuse/core": "^13.8.0",
+    "@vueuse/nuxt": "^13.8.0",
+    "eslint": "^9.34.0",
+    "nuxt": "^4.0.3",
     "nuxt-aos": "^1.2.5",
     "nuxt-og-image": "5.1.9",
-    "vue": "^3.5.17",
+    "vue": "^3.5.20",
     "vue-router": "^4.5.1"
   }
 }
