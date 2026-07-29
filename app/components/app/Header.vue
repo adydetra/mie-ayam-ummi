@@ -24,7 +24,6 @@ const nav = [
       </NuxtLink>
     </div>
     <div flex items-center gap-2>
-      <AppSearch />
       <AppColorMode />
     </div>
   </header>
