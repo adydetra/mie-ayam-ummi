@@ -17,7 +17,7 @@ const langs = [
 <template>
   <Vue3Marquee :pause-on-hover="true" :clone="true" :duration="50" :gradient="true" :gradient-color="colorMode.value === 'light' ? [255, 255, 255] : [0, 0, 0]" gradient-length="10%">
     <NuxtLink v-for="(lang, index) in langs" :key="index" class="mb-12 mt-16 flex lg:mb-28 lg:mt-12">
-      <div :class="`${lang.icon} text-4xl opacity-20 transition-opacity duration-500 ease-in-out lg:text-5xl hover:opacity-60`" />
+      <div :class="lang.icon" class="text-4xl opacity-20 transition-opacity duration-500 ease-in-out lg:text-5xl hover:opacity-60" />
     </NuxtLink>
   </Vue3Marquee>
 </template>

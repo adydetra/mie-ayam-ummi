@@ -17,16 +17,14 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@unocss/nuxt', '@nuxt/image', '@nuxtjs/color-mode', '@nuxtjs/fontaine', '@nuxtjs/sitemap', '@vueuse/nuxt', 'nuxt-aos', 'nuxt-og-image'],
+  modules: ['@unocss/nuxt', '@nuxt/image', '@nuxtjs/color-mode', '@nuxtjs/sitemap', '@vueuse/nuxt', 'nuxt-aos', 'nuxt-og-image', '@nuxt/fonts'],
 
   site: {
     url: 'https://mie-ayam-ummi.vercel.app',
   },
 
-  ogImage: {
-    fonts: [
-      'Outfit:400',
-    ],
+  routeRules: {
+    '/**': { prerender: true },
   },
 
   colorMode: {
@@ -34,8 +32,10 @@ export default defineNuxtConfig({
     preference: 'light',
   },
 
-  fontMetrics: {
-    fonts: ['Outfit'],
+  fonts: {
+    families: [
+      { name: 'Outfit', weights: [400, 700], global: true },
+    ],
   },
 
   devtools: {

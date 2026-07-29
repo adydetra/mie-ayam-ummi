@@ -20,7 +20,7 @@ useSeoMeta({
   twitterCard: 'summary_large_image',
 });
 
-defineOgImageComponent('OpenGraph');
+defineOgImage('OpenGraph.takumi');
 </script>
 
 <template>
